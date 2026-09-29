@@ -26,6 +26,20 @@ git clone https://github.com/longkou1988/college-innovation-project-skill.git
 python3 college-innovation-project-skill/scripts/install.py
 ```
 
+## WorkBuddy导入
+
+WorkBuddy市场需要额外的顶层元数据。请使用Release中的 `college-innovation-project-skill-workbuddy.zip`，不要上传旧的Codex安装包。兼容包补充version、display_name、display_name_en、description_zh、description_en、author和category；原始SKILL.md保留Codex格式。
+
+在WorkBuddy上传兼容ZIP即可；`scripts/install.py`只负责Codex本地安装。尚未执行WorkBuddy服务端导入或市场审核。
+
+重新构建兼容包：
+
+```bash
+python3 scripts/build_workbuddy.py --output /输出目录/college-innovation-project-skill-workbuddy.zip
+```
+
+字段存于 `packaging/workbuddy.json`，按[WorkBuddy官方Skill指南](https://open.workbuddy.cn/docs/skill)及实际导入错误配置。
+
 ## 使用
 
 在Codex中输入：

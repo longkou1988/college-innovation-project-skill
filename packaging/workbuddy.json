@@ -1,0 +1,9 @@
+{
+  "version": "1.0.1",
+  "display_name": "大学生大创申报助手",
+  "display_name_en": "College Innovation Project Application Assistant",
+  "description_zh": "面向本科生的大创申报助手：解析通知、推荐选题、设计项目方案，按申报模板撰写材料并检查合规性。",
+  "description_en": "Help undergraduates interpret innovation project calls, select feasible topics, design projects, draft application forms, and review compliance.",
+  "author": "longkou1988",
+  "category": "writing"
+}
