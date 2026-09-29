@@ -1,0 +1,4 @@
+interface:
+  display_name: "大学生大创申报助手"
+  short_description: "解析大创通知、推荐可行选题、设计项目方案并按原模板撰写审查申报书"
+  default_prompt: "请使用 $college-innovation-project-skill，先读取我提供的申报通知和附件，再协助完成选题与申报书。"

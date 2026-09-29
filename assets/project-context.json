@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "project_id": null,
+  "revision": 0,
+  "stage": "intake",
+  "sources": [],
+  "evidence": [],
+  "rules": {},
+  "track": null,
+  "student_profile": {},
+  "interests": [],
+  "directions": [],
+  "selected_direction": null,
+  "topics": [],
+  "selected_topic": null,
+  "blueprint": null,
+  "form_schema": null,
+  "gaps": [],
+  "draft": null,
+  "review": null,
+  "stale": [],
+  "changes": []
+}
